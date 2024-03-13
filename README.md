@@ -17,7 +17,7 @@ drive.mount('/content/drive')
 !cd /content/drive
 ```
 
-(3) 구글 코랩 노트북에서 다음과 같은 명령을 실행하면 '경영데이터분석'이란 이름으로 이 공간 내에 있는 모든 파일들과 폴더들이 복사가 됩니다.
+(3) 구글 코랩 노트북에서 다음과 같은 명령을 실행하면 'BizDataAnalysis'란 이름으로 이 공간 내에 있는 모든 파일들과 폴더들이 복사가 됩니다.
 ```
 !git clone https://github.com/BizStat/BizDataAnalysis.git
 ```
