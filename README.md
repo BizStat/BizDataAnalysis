@@ -15,28 +15,7 @@
   구글 코랩 노트북에서 다음과 같은 명령을 코드 셀에서 실행하면 'BizDataAnalysis'이란 이름으로 이 공간 내에 있는 모든 파일들과 폴더들이 복사가 됩니다.
 
 ```
-!git clone https://github.com/BizStat/SurveyReaearch.git"
+!git clone https://github.com/BizStat/BizDataAnalysis.git"
 ```
 
   코랩 작업환경 내에서 이렇게 복사된 내용은 `/content/BizDataAnalysis`란 이름으로 저장됩니다. 따라서 코랩 런타임 연결을 해제하게 되면 해당 폴더를 포함한 모든 내용이 삭제됩니다. 
-
-  만약 영구적으로 저장소의 내용을 내려받기 원한다면 다음과 같이 구글 드라이브를 코랩에 마운트 한 후에 해당 구글 드라이브에 원하는 폴더로 이동한 후 앞의 과정을 수행하면 됩니다. 예를 들어 자신의 구글 드라이브 루트 폴더에 저장하기 원하면 다음과 같은 순서로 작업을 수행하면 됩니다.
-
-* 코랩 작업환경에 구글 드라이브 마운트
-```
-from google.colab import drive
-drive.mount('/content/drive')
-```
-
-* 코랩 작업환경에서 구글 드라이브로 이동
-```
-import os
-os.chdir('/content/drive')
-```
-
-* 깃허브 저장소 복사
-```
-!git clone https://github.com/BizStat/BizDataAnalysis.git
-```
-
-  또는 자신이 사용하는 컴퓨터에 깃(git) 유틸리티를 설치한 후 이 저장소를 클론하는 방법도 있습니다.  강의를 진행하면서 깃허브에 저장된 파일들이 추가되거나 변경되기 때문에 강의를 진행하는 동안 코랩 런타임 환경에 연결하여 저장된 파일들을 이용해 실습을 진행하는 것을 추천합니다. 일부 자신에게 필요한 파일을 컴퓨터로 내려받기 원하면 구글 코랩 노트북 왼쪽에 있는 파일 탐색기에서 해당 파일을 선택하여 마우스 오른 쪽 버튼을 클릭하면 내려받을 수 있습니다.
