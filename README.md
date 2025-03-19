@@ -17,7 +17,7 @@
   구글 코랩 노트북에서 다음과 같은 명령을 코드 셀에서 실행하면 'BizDataAnalysis'이란 이름으로 이 공간 내에 있는 모든 파일들과 폴더들이 복사가 됩니다.
 
 ```
-!git clone https://github.com/BizStat/BizDataAnalysis.git"
+!git clone https://github.com/BizStat/BizDataAnalysis.git
 ```
 
   코랩 작업환경 내에서 이렇게 복사된 내용은 `/content/BizDataAnalysis`란 이름으로 저장됩니다. 따라서 코랩 런타임 연결을 해제하게 되면 해당 폴더를 포함한 모든 내용이 삭제됩니다. 
